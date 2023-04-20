@@ -3,6 +3,10 @@ from django.contrib import admin
 from .models import Course, Lesson, Instructor, Learner
 
 # <HINT> Register QuestionInline and ChoiceInline classes here
+#class QuestionInLine(admin.):
+
+
+#class ChoiceInLine(admin.):
 
 
 class LessonInline(admin.StackedInline):
